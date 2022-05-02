@@ -15,7 +15,11 @@ def start():
         click(x=389, y=498, clicks = 3)
         hotkey('ctrl', 'c')
         click(x = 1053, y = 274)
-        typewrite(str(int(eval(paste().replace("×", "*").replace("÷", "/")))))	
+        expr = paste()
+        if len(expr) == 2:
+            typewrite(str(int(expr[0]) ** int(expr[1])))
+        else:
+            typewrite(str(int(eval(expr.replace("×", "*").replace("÷", "/")))))	
         if i >= 70:
             break
 
