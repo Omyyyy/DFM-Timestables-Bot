@@ -3,7 +3,7 @@ import time # For delays and timer
 import webbrowser # To open the webpage remotely
 import pyperclip # To get what is on the clipboard
 
-pyautogui.PAUSE = 0.065 # Adjusting speed to keyboard and mouse clicks
+pyautogui.PAUSE = 0.065 # Adjusting speed of keyboard and mouse clicks
 
 def start():
     rounds = int(input("target score? ")) # Get target score from user
