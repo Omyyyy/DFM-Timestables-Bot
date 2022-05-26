@@ -6,7 +6,7 @@ Ever wanted to cheat on the 'Timestables' section of DrFrostMaths and get like 7
 
 - Have Python installed on your system (https://www.python.org/downloads/)
 
-- Be logged into DFM before running. The bot will open the page for you, don't worry. Just run 'main.exe', enter your target score when prompted, and sit back.
+- Be logged into DFM before running. The bot will open the page for you, don't worry. Just run 'main.py', enter your target score when prompted, and sit back.
 
 - You'll need to have two Python packages; 'pyautogui' and 'pyperclip'. Install these with the command prompt commands 'pip install pyautogui' and 'pip install pyperclip'.
 
